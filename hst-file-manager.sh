@@ -6,6 +6,8 @@ FPM_CONF="/var/www/hst-file-manager.conf"
 
 # apache
 cat << EOF > /etc/apache2/conf.d/manager.inc
+Alias /manager ${DIR}
+
 <Directory ${DIR}>
     AllowOverride All
     Options FollowSymLinks
