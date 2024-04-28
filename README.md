@@ -19,7 +19,7 @@ IncludeOptional /etc/apache2/conf.d/*.inc
 ## Cài đặt
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/ngatngay/hestiacp-file-manager/main/hst-file-manager.sh)
+wget -O - https://raw.githubusercontent.com/ngatngay/hestiacp-file-manager/main/hst-file-manager.sh | bash
 ```
 
 Truy cập:

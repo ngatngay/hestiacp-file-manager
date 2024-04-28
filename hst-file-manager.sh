@@ -66,7 +66,7 @@ systemctl reload apache2
 mkdir -p $DIR
 cd $DIR
 
-wget https://github.com/ngatngay/file-manager/releases/latest/download/file-manager.zip
+wget https://github.com/ngatngay/file-manager/releases/latest/download/file-manager.zip -O file-manager.zip
 unzip file-manager.zip
 
 chmod -R 777 $DIR
