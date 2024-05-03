@@ -34,6 +34,7 @@ pm.max_children = 8
 pm.max_requests = 5000
 pm.process_idle_timeout = 10s
 
+php_admin_value[disable_functions] =
 php_admin_value[max_execution_time] = 0
 php_admin_value[max_file_uploads] = 200
 php_admin_value[max_input_time] = 0
